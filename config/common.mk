@@ -73,6 +73,10 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
 # Don't include art debug targets
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 
+# Gaming Mode
+PRODUCT_PACKAGES += \
+    GamingMode
+
 # Strip the local variable table and the local variable type table to reduce
 # the size of the system image. This has no bearing on stack traces, but will
 # leave less information available via JDWP.
